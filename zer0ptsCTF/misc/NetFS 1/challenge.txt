@@ -1,0 +1,11 @@
+NetFS 1
+warmupmisc
+100
+pts
+98
+solves
+
+NetFS is a simple file viewer over network.
+nc misc.2023.zer0pts.com 10021 (JP)
+nc misc2.2023.zer0pts.com 10021 (US)
+nc misc3.2023.zer0pts.com 10021 (EU) 
