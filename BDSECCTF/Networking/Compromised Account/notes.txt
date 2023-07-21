@@ -1,0 +1,39 @@
+First steps: see IP Addr
+
+We have to find a request that went through and displayed credentials.
+By the looks of the HTTP requests (and the presence of the SLEEP SQL command), this looks like a time-based SQL injection.
+
+The way to solve the challenge would be to open the file with https://github.com/KimiNewt/pyshark and make a script to find all malicious HTTP calls and their response,
+analyzing the code and interpreting in.
+
+At the end, the attacker added an account:
+username=someone&email=someone%40someone.com&country=Germany&password=someone&submit_btn=SIGN+UP
+
+Okay That was not that.
+
+I found a request near the end to url "/app/admin_panel/process_login.php"
+The request body looks like this:
+email=root%40nanomate-solutions.com&password=41528ac7f116e9661cf57be7cd79e1a2&submit_btn=SIGN+IN
+So I just had to URL decode it:
+email=root@nanomate-solutions.com&password=41528ac7f116e9661cf57be7cd79e1a2&submit_btn=SIGN+IN
+
+Flag:
+BDSEC{root_41528ac7f116e9661cf57be7cd79e1a2}
+
+
+The attacker seems to register a user at the end:
+email=someone@someone.com
+password=someone
+ -- not useful
+================
+
+Well, that wasn't it...
+Looking again throught the packets, I'm looking for login attemps and their response (wireshark filter: http contains "POST /app/includes/process_login" or http contains "HTTP/1.1 302 Found")
+
+Now I'm looking for the first request that went through:
+email=tareq@gmail%2ecom&password=tareq@nanomate&submit_btn=SIGN+IN
+URL decoded:
+email=tareq@gmail.com&password=tareq@nanomate&submit_btn=SIGN+IN
+
+So flag should be:
+BDSEC{tareq_tareq@nanomate}

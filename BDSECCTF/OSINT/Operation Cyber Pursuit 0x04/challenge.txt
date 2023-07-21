@@ -1,0 +1,12 @@
+ Operation Cyber Pursuit 0x04
+205 Points
+
+A pivotal update surfaces in the investigation. Cyber intelligence OSINT expert, Ishtiaq, reveals Hax0r BD's recent arrival in Dhaka. Your mission: pinpoint the exact date and hotel where the hacker stayed. As an investigator, your expertise in OSINT will be paramount in unraveling the cybercriminal's movements. Time is of the essence, as the nation awaits your insights to intercept and bring Hax0r BD to justice. The clock is ticking as you dive into the digital trails left behind, determined to unmask the truth behind the hacker's arrival.
+
+**Flag Format : BDSEC{DD_MM_YYYY_Hotel_Name} **
+
+Example Flag : BDSEC{20_07_2023_KS_Hotel)
+
+*If there is any space in the hotel name, replace that with underscore. *
+
+Author : NomanProdhan

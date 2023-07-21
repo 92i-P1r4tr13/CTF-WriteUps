@@ -1,0 +1,15 @@
+google: "NomanProdhan php backdoor"
+
+1st result is a github
+
+https://github.com/NomanProdhan/devil-php-backdoor
+
+there is php code, which is obfuscated. When trying to deobfuscate it, nothing seems to be that interesting.
+
+I went to the commit history page.
+One commit (2119524), which was the first commit had uploaded a different PHP file.
+
+When deobfuscating this one, a cool variable appeared: $_POST["pass"] == "BDSEC{_d3V1L_PHP_b4CKD00r_}")
+
+Flag:
+BDSEC{_d3V1L_PHP_b4CKD00r_}

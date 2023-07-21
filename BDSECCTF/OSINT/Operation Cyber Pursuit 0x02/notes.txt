@@ -1,0 +1,4 @@
+Using the previously found pastebin, the table name at the top is dgfi_spy_table
+
+flag:
+BDSEC{dgfi_spy_table}

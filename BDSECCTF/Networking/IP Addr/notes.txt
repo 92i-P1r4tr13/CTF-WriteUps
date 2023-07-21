@@ -1,0 +1,15 @@
+First step: open the challenge file (PCAP => Wireshark)
+
+While navigating quickly through the trace, I notice a certain number of HTTP requests.
+Next, I filter requests to only display HTTP ones.
+I notice a request with a noticeably long request URL: 
+/app/includes/process_task_details.php?id=11&lcCU=9620%20AND%201%3D1%20UNION%20ALL%20SELECT%201%2CNULL%2C%27%3Cscript%3Ealert%28%22XSS%22%29%3C%2Fscript%3E%27%2Ctable_name%20FROM%20information_schema.tables%20WHERE%202%3E1
+which looks like an attack through URL params. If you look at the requests, there seems to be some SQL terms: UNION, NULL, FROM, WHERE
+
+Look at the destination (source):
+ - 192.168.1.5
+Look at the source (sender):
+ - 192.168.1.7
+
+Flag:
+BDSEC{192.168.1.5_192.168.1.7}

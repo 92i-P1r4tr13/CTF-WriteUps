@@ -1,0 +1,15 @@
+on his instagram account:
+https://www.instagram.com/hax0r_bd/
+he posted several photos
+
+on this picture:
+https://www.instagram.com/p/CuxeON6hDnC/
+he commented:
+After a long journey, checked in here yesterday, one of the best five star hotel in Dhaka
+He posted it on 16/07/2023
+
+using google lens:
+InterContinental Dhaka
+
+flag:
+BDSEC{16_07_2023_InterContinental}
