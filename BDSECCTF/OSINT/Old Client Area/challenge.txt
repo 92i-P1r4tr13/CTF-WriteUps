@@ -1,0 +1,8 @@
+ Old Client Area
+25 Points
+
+Our sponsor NS TechValley recently changed their billing system and they moved the billing/client area to a new domain/sub-domain. Can you find the old billing area domain/sub-domain?
+
+If the old billing/client area domain/sub-domain is https://login.nstechvalley.com then the flag will be BDSEC{login.nstechvalley.com}
+
+Author : NomanProdhan

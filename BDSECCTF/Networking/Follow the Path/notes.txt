@@ -1,0 +1,9 @@
+First step:
+See challenge IP Addr
+
+cat challenge/challenge.pcapng | grep -a nanomate | grep -a admin
+
+http://nanomate-solutions.com/app/admin_panel/
+
+Flag:
+BDSEC{/app/admin_panel}

@@ -1,0 +1,8 @@
+ HostName
+100 Points
+
+What is the host name of the web server?
+
+Flag format: BDSEC{hostname}
+
+Author: TareqAhamed

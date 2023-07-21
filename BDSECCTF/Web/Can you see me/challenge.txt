@@ -1,0 +1,16 @@
+ Can you see me?
+50 Points
+
+Test Your eyes. By the way PHP is the best programming language :3
+
+    http://139.144.184.115:8989/
+
+Alternative Link:
+
+    http://170.187.204.136:8989/
+
+    Bruteforce / Fuzzings are not allowed.
+
+Flag Format: BDSEC{flag}
+
+Author: Saif

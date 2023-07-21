@@ -1,0 +1,14 @@
+Goal is to find the old client area
+
+a simple google dorks helps us find an old registered subdomain:
+site:nstechvalley.com
+
+two main subdomains appear:
+my.nstechvalley.com
+clients.nstechvalley.com
+
+clicking on either redirects us to the new one:
+my.nstechvalley.com
+
+flag:
+BDSEC{clients.nstechvalley.com}

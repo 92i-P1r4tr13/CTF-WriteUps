@@ -1,0 +1,8 @@
+ Operation Cyber Pursuit 0x05
+340 Points
+
+Your objective is to find his current mobile phone's model.
+
+If he is using Samsung Galaxy S23 Ultra then the flag will be like BDSEC{Galaxy_S23_Ultra}
+
+Author : NomanProdhan

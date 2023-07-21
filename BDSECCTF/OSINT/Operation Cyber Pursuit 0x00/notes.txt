@@ -1,0 +1,8 @@
+Our goal is to find the hacker's account name.
+Some social networks use handles, like instagram or twitter
+a quick search on twitter finds us an account: hax0r_bd account created this year (probably CTF-related), not too many following / followers.
+
+twitter.com/hax0r_bd
+
+flag:
+BDSEC{hax0r_bd}

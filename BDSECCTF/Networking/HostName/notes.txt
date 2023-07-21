@@ -1,0 +1,6 @@
+First steps: See challenge "IP Addr"
+
+cat ../challenge/challenge.pcapng | grep -a nanomate
+
+Flag:
+BDSEC{nanomate-solutions.com}

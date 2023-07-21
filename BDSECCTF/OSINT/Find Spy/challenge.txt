@@ -1,0 +1,10 @@
+ Find Spy
+50 Points
+
+A few years ago, the intelligence agencies in Bangladesh, DGFI (Directorate General of Forces Intelligence) and RAB (Rapid Action Battalion), discovered an Indian soldier who was allegedly working for an Indian external intelligence unit (RAW). This soldier was reportedly involved in espionage activities within Bangladesh, transmitting internal information from Bangladesh to India.My boss is seeking information of the name of the soldier and the specific date of his arrest. Can you help me find the name of the soldier and arrested date my boss is seeking?
+
+Flag format: BDSEC{Firstname_Lastname:Month_day_year}
+
+Example FLag: BDSEC{Parvez_Mosharaf:Januaray_01_2001}
+
+Author: Siam

@@ -1,0 +1,8 @@
+ Compromised Account
+250 Points
+
+Which user account was compromised? What was the username & password?
+
+Flag format: BDSEC{username_password}
+
+Author: TareqAhamed

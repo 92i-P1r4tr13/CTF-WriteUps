@@ -1,0 +1,14 @@
+Step 1:
+We have picture, we can go through it to gather some details.
+First we notice it is indoors, and probably in some kind of a mall as there are several floors.
+BDSEC CTF being organized by Bangladeshi people, we start looking for malls in Bangladesh: there are many.
+
+Let's focus on the details: we notice a "STAR" logo, followed by what looks like the letters 'cine'
+This could be a cinema: a quick google search finds us the franchise "STAR Cineplex".
+On their website: https://www.cineplexbd.com/
+we find the list of all STAR CINEPLEX cinemas in Bangladesh.
+Finally, we went through all of them on google maps and found one matching our picture: 
+Star Cineplex, Sony Square, Level-4, Plot-1, Block-D, Section-2, Mirpur, Dhaka-1216
+
+Flag:
+BDSEC{Sony_Square}

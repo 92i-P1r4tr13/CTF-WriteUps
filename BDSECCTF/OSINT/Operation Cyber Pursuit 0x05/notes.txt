@@ -1,0 +1,19 @@
+on his instagram account:
+https://www.instagram.com/hax0r_bd/
+he posted several photos
+
+on this picture (10/07/2023):
+https://www.instagram.com/p/Cuhvk0mhtbe/
+RedMi Note 10 Pro
+is written at the bottom
+
+BUT
+
+On his mastodon, there was a picture (19/07/2023):
+https://mastodon.social/@hax0r_bd/110741878564658691
+with "realme Shot on GT Master"
+
+So his new phone must be realme GT Master Edition
+
+flag:
+BDSEC{GT_Master}

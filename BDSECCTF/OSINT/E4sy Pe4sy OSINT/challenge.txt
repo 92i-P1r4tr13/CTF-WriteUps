@@ -1,0 +1,12 @@
+ E4sy Pe4sy OSINT
+60 Points
+
+A few days ago I went to meet a friend of mine. I took a picture while we were talking. Can you tell me where we met?
+
+Picture : https://drive.google.com/file/d/1-bELpZVh6UED_QiXA3wTDsbw6DGrvyYW/view?usp=sharing
+
+Flag Format : BDSEC{name_here}
+
+For example, if we meet at SKS Tower the flag will be BDSEC{SKS_Tower}
+
+Author : NomanProdhan

@@ -1,0 +1,18 @@
+On his mastodon account, the hacker posted a picture, probably from the location he was in.
+See file in the folder.
+
+Using google lens, the picture represents the Bashundhara shopping mall in Dhaka, Bangladesh.
+On the bottom of the picture, there is "realme Shot on GT Master"
+
+A google search of Hax0r BD returns a github repository: https://github.com/htr-tech/haxorbd
+Which seems to be related to Bangladesh
+But I'm note sure it is related to the challenge.
+
+He's got an instagram account:
+https://www.instagram.com/hax0r_bd/
+where he posted several photos. Let's geoint them on google lens
+
+On the bus on one ofthe pictures (https://www.instagram.com/p/Cuhvk0mhtbe/), it's written "New York City Bus"
+
+flag:
+BDSEC{new_york}

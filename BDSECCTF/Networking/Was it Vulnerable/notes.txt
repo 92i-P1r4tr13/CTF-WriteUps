@@ -1,0 +1,12 @@
+I tried to look at the requests, and the only thing I found was an SQL injection.
+Errors were sent from the server to the attacker after weird characters were input
+"'{[(--...>
+these errors came from mysql
+The attack (I think) was a time-base SQLI
+
+I think there was some broken access control as well.
+
+There were some XSS attemps but these didn't work.
+
+Flag:
+???

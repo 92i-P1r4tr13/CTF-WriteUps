@@ -1,0 +1,20 @@
+Using his twitter account: twitter.com/hax0r_bd
+
+his first tweet is:
+wow WordPress CVE-2023-2745 😂🤣🤣🤣
+
+But it is a fake flag.
+
+pursuing the investigation, I try to whatsmyname.app his handle, it returns me with 3 websites:
+https://mastodon.social/@hax0r_bd
+https://pastebin.com/u/hax0r_bd
+and obviously his twitter
+
+on his pastebin, only one paste (https://pastebin.com/b4XVaF9j), looks like a "dumped data"base: names, height, weight...
+comment at the top of the file is
+Gov sites sucks CVE-2023-23752 rocks 😋
+
+Note: the challenge was solvable through mastodon as well.
+
+flag:
+BDSEC{CVE-2023-23752}

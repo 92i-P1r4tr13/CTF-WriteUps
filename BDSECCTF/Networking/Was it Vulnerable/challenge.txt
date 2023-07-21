@@ -1,0 +1,12 @@
+ Was it Vulnerable?
+350
+
+Was Process Task Details page vulnerable? If yes, what was the vulnerability?
+
+Flag Format: BDSEC{VULN}
+
+Example Flag: BDSEC{RCE_XSS}
+
+    If multiple, separate them with underscore. The flag is case insensitive & order doesn;'t matter.
+
+Author: TareqAhamed

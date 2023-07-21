@@ -1,0 +1,8 @@
+ Find Leader
+100
+
+Noman Prodhan, the leader of Knight Squad, is not his real name. In 2021, he worked for a company and expressed his gratitude to the CEO of that company. Can you please provide the real name of Noman Prodhan along with the name of the CEO he is thankful to?
+
+Flag format: BDSEC{LeaderFirstname_Lastname_CEOFirstname_Lastname}
+
+0/10 attempts

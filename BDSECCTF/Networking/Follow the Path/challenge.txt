@@ -1,0 +1,8 @@
+ Follow the Path
+250 Points
+
+What is the path of the Admin endpoint?
+
+Flag format : BDSEC{/path}
+
+Author: TareqAhamed
