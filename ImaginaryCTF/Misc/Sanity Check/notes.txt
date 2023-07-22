@@ -1,0 +1,3 @@
+flag:
+
+ictf{welcome_to_imaginaryctf_2023!}

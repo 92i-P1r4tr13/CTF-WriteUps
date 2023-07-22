@@ -1,0 +1,9 @@
+
+Idoriot (100 pts) - 289 solves
+by tirefire
+Description
+
+Some idiot made this web site that you can log in to. The idiot even made it in php. I dunno.
+Attachments
+
+http://idoriot.chal.imaginaryctf.org/

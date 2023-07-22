@@ -1,0 +1,9 @@
+
+roks (100 pts) - 232 solves
+by FIREPONY57
+Description
+
+My rock enthusiast friend made a website to show off some of his pictures. Could you do something with it?
+Attachments
+
+https://imaginaryctf.org/r/0Sm4V#roks.zip http://roks.chal.imaginaryctf.org
