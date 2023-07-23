@@ -1,0 +1,10 @@
+It's a webapp with a login form, but nothing seems to be interesting at first glance.
+We have the source code, as usual Dockerfile and source files
+
+the flag is at ./flag.txt
+
+in the source code, there are SQL statements which do not seem to be escaped.
+I believe there is an SQL injection
+
+I have a feeling thet the content not being sent as a JSON body is a problem...
+

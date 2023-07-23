@@ -1,0 +1,11 @@
+We have an app which asks for an image upload.
+
+I tried it with our team's logo, but that wasn't "good enough".
+
+Let's look at the code: we have the python files, some templates and a Docker file.
+In the Dockerfile, we know the flag is in ./flag.txt.
+In the python file, we understand quickly what this is about: we need to create the perfect picture.
+Let's try to solve it using PIL (./solver.py) and exiftool
+
+Flag:
+ictf{7ruly_th3_n3x7_p1c4ss0_753433} 

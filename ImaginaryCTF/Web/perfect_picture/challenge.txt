@@ -1,0 +1,9 @@
+
+Perfect Picture (100 pts) - 195 solves
+by FIREPONY57
+Description
+
+Someone seems awful particular about where their pixels go...
+Attachments
+
+https://imaginaryctf.org/r/Gdmod#perfect_picture.zip http://perfect-picture.chal.imaginaryctf.org

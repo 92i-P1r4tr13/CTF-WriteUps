@@ -1,0 +1,11 @@
+
+signpost (100 pts) - 142 solves
+by Eth007
+Description
+
+Tracking down pictures can be hard. Surely you can't find where this giant ballpark is...
+
+Submit your flag as ictf{latitude,longitude}, with the coordinates of where the picture was taken rounded to three decimal places. Example: ictf{-42.443,101.333}
+Attachments
+
+https://imaginaryctf.org/r/sZAdu#signpost.png

@@ -1,0 +1,12 @@
+By reading the signs, I notice "seals stadium"
+So I google "seals stadium signpost"
+1st link on images is 
+https://www.alamy.com/stock-photo-direction-sign-to-baseball-stadiums-associated-with-the-san-francisco-19485624.html?imageid=257479B4-2649-40E0-BD55-63FA2AD8B35C&p=150015&pn=1&searchId=8dc76946d79e72f9e75e34c8a7efd088&searchtype=0
+https://www.alamy.com/stadium-direction-signs-at-att-park-stadium-san-francisco-california-image60611952.html?imageid=75817184-49D0-4FA7-9BB1-50AE9754177B&p=178594&pn=1&searchId=8dc76946d79e72f9e75e34c8a7efd088&searchtype=0
+
+2 locations are shown:
+McCovey Cove, San Francisco, California, USA
+AT&T Park, San Francisco, California, USA
+
+Flag:
+ictf{37.778,-122.388}
