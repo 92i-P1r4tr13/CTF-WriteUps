@@ -1,0 +1,6 @@
+on the discord server, text channel #ictf2023-announcements (1127006939981815858),
+
+the description of the channel is ictf{communication_is_key}
+
+flag:
+ictf{communication_is_key}

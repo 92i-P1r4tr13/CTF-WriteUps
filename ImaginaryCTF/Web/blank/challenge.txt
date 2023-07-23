@@ -1,0 +1,9 @@
+
+blank (100 pts) - 165 solves
+by Eth007
+Description
+
+I asked ChatGPT to make me a website. It refused to make it vulnerable so I added a little something to make it interesting. I might have forgotten something though...
+Attachments
+
+https://imaginaryctf.org/r/FVauo#blank_dist.zip http://blank.chal.imaginaryctf.org

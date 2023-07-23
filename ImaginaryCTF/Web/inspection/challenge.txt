@@ -1,0 +1,9 @@
+
+inspection (100pts) - 341 solves
+by Eth007
+Description
+
+Here's a freebie: the flag is ictf.
+Attachments
+
+N/A

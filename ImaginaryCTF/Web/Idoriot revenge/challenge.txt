@@ -1,0 +1,9 @@
+
+idoriot-revenge (496 pts) - 7 solves
+by tirefire
+Description
+
+The idiot who made it, made it so bad that the first version was super easy. It was changed to fix it.
+Attachments
+
+http://idoriot-revenge.chal.imaginaryctf.org
